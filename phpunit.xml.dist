@@ -36,14 +36,14 @@
                         <string>https://coveralls.io/api/v1/jobs</string>
                     </element>
                     <element key="coverage_dir">
-                        <string>/tmp/transfluent/mobileApp</string>
+                        <string>/tmp/rajibmp/cordova-test</string>
                     </element>
                 </array>
             </arguments>
         </listener>
     </listeners>
     <logging>
-        <log type="coverage-text" target="/tmp/transfluent/mobileApp/coverage.txt" />
-        <log type="coverage-clover" target="/tmp/transfluent/mobileApp/coverage.xml"/>
+        <log type="coverage-text" target="/tmp/rajibmp/cordova-test/coverage.txt" />
+        <log type="coverage-clover" target="/tmp/rajibmp/cordova-test/coverage.xml"/>
     </logging>
 </phpunit>
