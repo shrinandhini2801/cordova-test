@@ -1,0 +1,10 @@
+nbproject
+.idea
+vendor
+composer.lock
+composer.phar
+phpunit.xml
+coverage
+.sass-cache
+node_modules
+bower_components

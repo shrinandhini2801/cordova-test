@@ -1,0 +1,26 @@
+<section data-role="content">
+  <header>
+    <h3 data-inline="true">Translate your text</h3>
+  </header>
+  <div>
+    <form>
+      <textarea placeholder="Your text here"></textarea>
+      <input type="email" name="email" placeholder="Email Address">
+      <select name="source_lang">
+        <option value="">Source Language (Optional)</option>
+        {% for language in languages %}
+          <option value="{{ language.id }}">{{ language.name }}</option>
+        {% endfor %}
+      </select>
+      <select name="target_lang">
+        <option>Target Language (Optional)</option>
+        {% for language in languages %}
+          <option value="{{ language.id }}">{{ language.name }}</option>
+        {% endfor %}
+      </select>
+      <div align="right">
+        <button type="submit" data-inline="true" data-corners="true" data-icon="mail">Get a Quote</button>
+      </div>
+    </form>
+  </div>
+</section>

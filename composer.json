@@ -1,0 +1,35 @@
+{
+    "name":         "rajibmp/fun-rap",
+    "description":  "The Ultimate Fun",
+    "homepage":     "http://rajibpaudyal.com",
+    "authors": [
+        {
+            "name": "Rajib Paudyal",
+            "email": "rajib.mp@gmail.com"
+        }
+    ],
+    "require":  {
+                  "php": ">=5.4",
+                  "silex/silex": "~1.1",
+                  "twig/twig":  "1.*",
+                  "Transfluent/transfluent-backend-api-client":"dev-master"
+                },
+                        
+    "require-dev": {
+                      "phpunit/phpunit": "~4.0",
+                      "league/phpunit-coverage-listener" : "~1.1"
+                   },
+                
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:rajibmp/Transfluent-Backend-API-client.git"
+        }
+    ],
+
+    "autoload":         {
+                            "psr-4": {
+                                "Transfluent\\MobileApp\\": "app/"
+                            }
+                        }
+}
