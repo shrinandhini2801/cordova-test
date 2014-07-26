@@ -6,7 +6,7 @@
          processIsolation="false"
          syntaxCheck="false">
     <testsuites>
-        <testsuite name="Transfluent Mobile App Test Suite">
+        <testsuite name="Cordova Mobile App Test Suite">
             <directory suffix=".php">./tests/</directory>
         </testsuite>
     </testsuites>
@@ -30,7 +30,7 @@
                         <string>Transfluent\MobileApp</string>
                     </element>
                     <element key="repo_token">
-                        <string>OXpiKuANzdoiGQolYxV2uTeZmdSOqq6oI</string>
+                        <string>O43TD3dazQsM9oyq25MmSU2lmT2YZFFwC</string>
                     </element>
                     <element key="target_url">
                         <string>https://coveralls.io/api/v1/jobs</string>

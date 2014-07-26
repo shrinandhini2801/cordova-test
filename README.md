@@ -1,5 +1,8 @@
 Mobile App
 ===
+[![Build Status](https://travis-ci.org/rajibmp/cordova-test.svg)](https://travis-ci.org/rajibmp/cordova-test)
+[![Coverage Status](https://coveralls.io/repos/rajibmp/cordova-test/badge.png)](https://coveralls.io/r/rajibmp/cordova-test)
+[![Dependencies Status](https://depending.in/rajibmp/cordova-test.png)](http://depending.in/rajibmp/cordova-test)
 
 Testing the Cordova for Mobile App
 
@@ -10,7 +13,12 @@ Testing the Cordova for Mobile App
 * SCSS
 * Silex PHP Microframework
 * jQuery Mobile
+* Twig
+* GulpJs
 * Cordova
+
+### Test
+* PHPUnit
 
 
 ### Install
