@@ -21,7 +21,7 @@ class PageHeader
      * @param string $header
      * @return string
      */
-    public function __invoke($header = '')
+    public function __invoke($header = null)
     {
         if ($header) {
             $this->header = $header;

@@ -21,7 +21,7 @@ class Title
      * @param string $title
      * @return string
      */
-    public function __invoke($title = '')
+    public function __invoke($title = null)
     {
         if ($title) {
             $this->title = $title . ' | ' . $this->title ;

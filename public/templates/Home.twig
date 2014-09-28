@@ -8,13 +8,13 @@
       <input type="email" name="email" placeholder="Email Address">
       <select name="source_lang">
         <option value="">Source Language (Optional)</option>
-        {% for language in languages %}
+        {% for language in languages|sort %}
           <option value="{{ language.id }}">{{ language.name }}</option>
         {% endfor %}
       </select>
       <select name="target_lang">
         <option>Target Language (Optional)</option>
-        {% for language in languages %}
+        {% for language in languages|sort %}
           <option value="{{ language.id }}">{{ language.name }}</option>
         {% endfor %}
       </select>

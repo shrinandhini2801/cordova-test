@@ -10,9 +10,10 @@
     ],
     "require":  {
                   "php": ">=5.4",
-                  "silex/silex": "~1.1",
+                  "silex/silex": "1.*",
                   "twig/twig":  "1.*",
-                  "Transfluent/transfluent-backend-api-client":"dev-master"
+                  "Transfluent/transfluent-backend-api-client":"dev-master",
+                  "monolog/monolog": "1.*"
                 },
                         
     "require-dev": {
